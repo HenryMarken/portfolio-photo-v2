@@ -20,16 +20,16 @@ const NavBar = () => {
       <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-playfair">
         {/* Secondary Navigation */}
         <div className="px-10 md:text-6xl text-4xl md:py-5">
-          <a href="#">Henry Marken</a>
+          <a href="/">Henry Marken</a>
         </div>
         <div className="hidden py-10 md:block items-center space-x-1">
-          <a href="#" className="py-5 px-3 text-3xl ">
+          <a href="/about" className="py-5 px-3 text-3xl ">
             About
           </a>
-          <a href="#" className="py-3 px-3 text-3xl ">
+          <a href="/portfolio" className="py-3 px-3 text-3xl ">
             Portfolio
           </a>
-          <a href="#" className="py-3 px-3 text-3xl">
+          <a href="/contact" className="py-3 px-3 text-3xl">
             Contact
           </a>
         </div>
@@ -58,20 +58,20 @@ const NavBar = () => {
       {/* Mobile Menu */}
       <div className={mobileButtonMenu}>
         <a
-          href="#"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-lg font-playfair text-center transition duration-300"
+          href="/portfolio"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
         >
           Portfolio
         </a>
         <a
-          href="#"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-lg font-playfair text-center transition duration-300"
+          href="/about"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
         >
           About
         </a>
         <a
-          href="#"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-lg font-playfair text-center transition duration-300"
+          href="/contact"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
         >
           Contact
         </a>

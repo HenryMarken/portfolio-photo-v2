@@ -7,7 +7,7 @@ import NavBar from "../components/NavBar";
 import GalleryGrid from "../components/GalleryGrid";
 import "../app/globals.css"; //need this to include the css for tailwindcss
 
-function HomePage() {
+const HomePage = () => {
   return (
     <React.Fragment>
       <NavBar />
@@ -22,6 +22,7 @@ function HomePage() {
         <Image src='/images/gtr-back.jpg' width={3200} height={1800} className="break-inside-avoid rounded-sm" alt="image"></Image>
         <Image src='/images/moody-train.jpg' width={3200} height={1800} className="break-inside-avoid rounded-sm" alt="image"></Image>
         <Image src='/images/underground-choi.jpg' width={3200} height={1800} className="break-inside-avoid rounded-sm" alt="image"></Image>
+        <Image src='/images/supra-dark.jpg' width={3200} height={1800} className="break-inside-avoid rounded-sm" alt="image"></Image>
        
       </div>
     </React.Fragment>
