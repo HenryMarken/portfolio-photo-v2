@@ -19,17 +19,17 @@ const NavBar = () => {
 
       <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-playfair">
         {/* Secondary Navigation */}
-        <div className="px-10 md:text-4xl text-2xl md:py-5">
+        <div className="px-10 md:text-6xl text-4xl md:py-5">
           <a href="#">Henry Marken</a>
         </div>
-        <div className="hidden text-xl py-10 md:block items-center space-x-1">
-          <a href="#" className="py-5 px-3 text-xl">
+        <div className="hidden py-10 md:block items-center space-x-1">
+          <a href="#" className="py-5 px-3 text-3xl ">
             About
           </a>
-          <a href="#" className="py-3 px-3 text-xl">
+          <a href="#" className="py-3 px-3 text-3xl ">
             Portfolio
           </a>
-          <a href="#" className="py-3 px-3 text-xl">
+          <a href="#" className="py-3 px-3 text-3xl">
             Contact
           </a>
         </div>
@@ -43,7 +43,7 @@ const NavBar = () => {
               viewBox="0 0 24 24"
               stroke-width="1.5"
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-10 h-10"
             >
               <path
                 stroke-linecap="round"
