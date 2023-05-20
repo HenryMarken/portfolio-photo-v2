@@ -14,10 +14,10 @@ const portraitPage = () => {
         <p className="text-center font-playfair text-2xl md:text-3xl pb-3">Sydney VCD Grad Chair</p>
         <GalleryGrid
           Img1="/images/sydney/sydney-2.jpg"
-          Img2=''
-          Img3="/images/sydney/sydney-4.jpg"
-          Img4="/images/sydney/sydney-5.jpg"
-          Img5=''
+          Img2="/images/sydney/sydney-4.jpg"
+          Img3="/images/sydney/sydney-5.jpg"
+          Img4=""
+          Img5=""
         />
       </div>
 

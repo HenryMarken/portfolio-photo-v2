@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 
 import "../app/globals.css";
 
@@ -22,18 +23,18 @@ const NavBar = () => {
       <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-playfair">
         {/* Secondary Navigation */}
         <div className="px-10 md:text-6xl text-4xl md:py-5">
-          <a href="/">Henry Marken</a>
+          <Link href="/">Henry Marken</Link>
         </div>
         <div className="hidden py-10 md:block items-center space-x-1">
-          <a href="/portfolio" className="py-3 px-3 text-3xl ">
+          <Link href="/portfolio" className="py-3 px-3 text-3xl ">
             Portfolio
-          </a>
-          <a href="/about" className="py-5 px-3 text-3xl ">
+          </Link>
+          <Link href="/about" className="py-5 px-3 text-3xl ">
             About
-          </a>
-          <a href="/contact" className="py-3 px-3 text-3xl">
+          </Link>
+          <Link href="/contact" className="py-3 px-3 text-3xl">
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Button*/}
@@ -59,24 +60,24 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       <div className={mobileButtonMenu}>
-        <a
+        <Link
           href="/portfolio"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           Portfolio
-        </a>
-        <a
+        </Link>
+        <Link
           href="/about"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           href="/contact"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );
