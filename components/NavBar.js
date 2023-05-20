@@ -25,11 +25,11 @@ const NavBar = () => {
           <a href="/">Henry Marken</a>
         </div>
         <div className="hidden py-10 md:block items-center space-x-1">
-          <a href="/about" className="py-5 px-3 text-3xl ">
-            About
-          </a>
           <a href="/portfolio" className="py-3 px-3 text-3xl ">
             Portfolio
+          </a>
+          <a href="/about" className="py-5 px-3 text-3xl ">
+            About
           </a>
           <a href="/contact" className="py-3 px-3 text-3xl">
             Contact
