@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import "../app/globals.css";
+
 const NavBar = () => {
   const [mobileButtonMenu, isMobileButtonMenu] = useState("hidden");
 
@@ -59,19 +61,19 @@ const NavBar = () => {
       <div className={mobileButtonMenu}>
         <a
           href="/portfolio"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           Portfolio
         </a>
         <a
           href="/about"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           About
         </a>
         <a
           href="/contact"
-          className="block py-2 px-10 text-sm hover:bg-gray-200 text-2xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-sm hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
         >
           Contact
         </a>

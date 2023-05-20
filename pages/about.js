@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 
 //local import
-import "../app/globals.css"; //need this to include the css for tailwindcss
 import NavBar from "../components/NavBar";
 
 const aboutPage = () => {
