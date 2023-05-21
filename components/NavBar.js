@@ -16,7 +16,7 @@ const NavBar = () => {
 
   return (
     //navbar goes here
-    <nav className="bg-white">
+    <nav className="bg-white text-black">
       {/* we can also change the width of the navbar here with either max-w-6xl or p-8 these are just random numbers but one is for width of the scree nadn one is padding the text*/}
       {/* this justifys all the children of this div with space between */}
 

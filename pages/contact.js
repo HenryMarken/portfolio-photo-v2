@@ -26,7 +26,7 @@ function Contact() {
               id="full-name"
               name="name"
               type="text"
-              className="w-full md:w-1/2 md:h-16 form-control px-3 py-1.5 font-normal bg-white bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:bg-gray-900 dark:border-slate-700 text-black"
+              className="w-full md:w-1/2 md:h-16 form-control px-3 py-1.5 font-normal bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:border-slate-700 text-black"
             />
           </div>
           <div className="flex flex-col items-center form-group mb-6">
@@ -37,7 +37,7 @@ function Contact() {
               id="email"
               type="email"
               name="email"
-              className="w-full md:w-1/2 md:h-16 form-control px-3 py-1.5 font-normal bg-white bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:bg-gray-900 dark:border-slate-700 text-black"
+              className="w-full md:w-1/2 md:h-16 form-control px-3 py-1.5 font-normal bg-white bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:border-slate-700 text-black"
             />
             <ValidationError
               prefix="Email"
@@ -50,7 +50,7 @@ function Contact() {
             <textarea
               id="message"
               name="message"
-              className="w-full md:w-1/2 form-control px-3 py-1.5 bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:bg-gray-900 dark:border-slate-700"
+              className="w-full md:w-1/2 form-control px-3 py-1.5 bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:border-slate-700"
               rows="10"
             ></textarea>
             <ValidationError
@@ -63,7 +63,7 @@ function Contact() {
             type="submit"
             onClick={handleClick}
             disabled={state.submitting}
-            className="w-full md:w-1/2 px-6 py-2.5 border dark:border-slate-700 dark:text-white text-xl leading-tight uppercase rounded -md hover:bg-white hover:text-black hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out"
+            className="w-full md:w-1/2 px-6 py-2.5 text-black border dark:border-slate-700 text-xl leading-tight uppercase rounded -md hover:bg-white hover:text-black hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out"
             shadow
           >
             Send

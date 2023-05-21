@@ -9,7 +9,7 @@ const aboutPage = () => {
   return (
     <React.Fragment>
       <NavBar />
-      <div className="flex flex-col min-h-screen md:flex font-playfair text-2xl  md:text-3xl lg:text-4xl px-10 bg-white text-center p-10 flex justify-center items-center">
+      <div className="flex flex-col min-h-screen md:flex font-playfair text-2xl text-black  md:text-3xl lg:text-4xl px-10 bg-white text-center p-10 flex justify-center items-center">
         <Image src='/images/about-page.jpg' width={3200} height={1800} className="rounded-sm 2xl:w-1/2 sm:w-screen p-10 " ></Image>
         <p className="xl:max-w-6xl lg:max-w-2xl max-w-lg  pt-10">
           I am a recent electrical engineering graduate that does photography as
