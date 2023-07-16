@@ -63,7 +63,7 @@ function Contact() {
             type="submit"
             onClick={handleClick}
             disabled={state.submitting}
-            className="w-full md:w-1/2 px-6 py-2.5 text-black border dark:border-slate-700 text-xl leading-tight uppercase rounded -md hover:bg-white hover:text-black hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out"
+            className="w-full md:w-1/2 px-6 py-2.5 text-black border dark:border-slate-700 text-xl leading-tight uppercase rounded -md hover:bg-white hover:text-black hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-700 active:shadow-lg transition duration-150 ease-in-out bg-white"
             shadow
           >
             Send

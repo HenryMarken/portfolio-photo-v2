@@ -20,7 +20,7 @@ const NavBar = () => {
       {/* we can also change the width of the navbar here with either max-w-6xl or p-8 these are just random numbers but one is for width of the scree nadn one is padding the text*/}
       {/* this justifys all the children of this div with space between */}
 
-      <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-playfair">
+      <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-gilroy">
         {/* Secondary Navigation */}
         <div className="px-10 md:text-6xl text-4xl md:py-5">
           <Link href="/">Henry Marken</Link>
