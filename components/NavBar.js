@@ -22,7 +22,7 @@ const NavBar = () => {
 
       <div className="flex md:flex-col md:justify-center items-center justify-between py-8 font-gilroy">
         {/* Secondary Navigation */}
-        <div className="px-10 md:text-6xl text-4xl md:py-5">
+        <div className="px-10 md:text-6xl text-4xl md:py-5 font-bold">
           <Link href="/">Henry Marken</Link>
         </div>
         <div className="hidden py-10 md:block items-center space-x-1">
@@ -60,24 +60,26 @@ const NavBar = () => {
 
       {/* Mobile Menu */}
       <div className={mobileButtonMenu}>
+        <div className='font-gilroy'>
         <Link
           href="/portfolio"
-          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl text-center transition duration-300"
         >
           Portfolio
         </Link>
         <Link
           href="/about"
-          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl text-center transition duration-300"
         >
           About
         </Link>
         <Link
           href="/contact"
-          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl font-playfair text-center transition duration-300"
+          className="block py-2 px-10 text-2xl hover:bg-gray-200 text-3xl text-center transition duration-300"
         >
           Contact
         </Link>
+        </div>
       </div>
     </nav>
   );

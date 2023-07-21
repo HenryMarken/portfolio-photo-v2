@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@font-face {
-  src: url('../public/fonts/Gilroy-Light.ttf');
+@font-face{
   font-family: 'Gilroy';
-}
+  src: url('../public/fonts/Gilroy-Thin.ttf')
+};
 
+@font face
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

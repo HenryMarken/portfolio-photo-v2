@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       fontFamily:{
         'playfair' : ['Playfair Display', 'serif'],
-        'gilroy' : ['Gilroy Light', 'sans-serif'],
+        'gilroy' : ['Gilroy', 'sans-serif'],
+        'test' : ['Test', 'sans-serif'],
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

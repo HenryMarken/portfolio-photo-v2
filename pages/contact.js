@@ -14,8 +14,8 @@ function Contact() {
   return (
     <React.Fragment>
       <NavBar />
-      <div className="text-center p-10  text-black bg-white font-playfair text-2xl lg:text-4xl h-screen">
-        <h2 className="font-playfair mb-5">Contact Me</h2>
+      <div className="text-center p-10  text-black bg-white font-gilroy text-2xl lg:text-4xl h-screen">
+        <h2 className="mb-5">Contact Me</h2>
         <p className="mb-5">Feel free to leave me a message about anything!</p>
         <form onSubmit={handleSubmit} name="contact-form">
           <div className="flex flex-col items-center form-group mb-6">
@@ -27,7 +27,7 @@ function Contact() {
               name="name"
               type="text"
               className="w-full md:w-1/2 md:h-16 form-control px-3 py-1.5 font-normal bg-clip-padding border border-solid rounded transition ease-in-out m-0 focus:bg-white focus:border-blue-600 focus:outline-none dark:border-slate-700 text-black"
-            />
+            /> 
           </div>
           <div className="flex flex-col items-center form-group mb-6">
             <label htmlFor="email" className="text-center">
