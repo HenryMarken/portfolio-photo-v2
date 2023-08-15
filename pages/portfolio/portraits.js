@@ -17,7 +17,7 @@ const portraitPage = () => {
           <GalleryGrid
             Img1="/images/kendra-graduation/legislature-2.jpg"
             Img2="/images/kendra-graduation/legislature-3.jpg"
-            Img3="/images/kendra-graduation/green-2.png"
+            Img3="/images/kendra-graduation/green-2.jpg"
             Img4="/images/kendra-graduation/legislature-4.jpg"
             Img5="/images/kendra-graduation/green-3.jpg"
           />
@@ -25,7 +25,7 @@ const portraitPage = () => {
             Img1="/images/kendra-graduation/green-1.jpg"
             Img2="/images/kendra-graduation/legislature-1.jpg"
             Img3="/images/kendra-graduation/legislature-5.jpg"
-            Img4="/images/kendra-graduation/green-4.png"
+            Img4="/images/kendra-graduation/green-4.jpg"
             Img5="/images/kendra-graduation/legislature-6.jpg"
           />
         </div>
