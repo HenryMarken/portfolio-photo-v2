@@ -14,7 +14,7 @@ function Contact() {
   return (
     <React.Fragment>
       <NavBar />
-      <div className="text-center p-10  text-black bg-white font-gilroy text-2xl lg:text-4xl h-screen">
+      <div className="text-center p-10  text-black bg-white font-gilroy text-2xl lg:text-4xl h-full">
         <h2 className="mb-5">Contact Me</h2>
         <p className="mb-5">Feel free to leave me a message about anything!</p>
         <form onSubmit={handleSubmit} name="contact-form">

@@ -9,7 +9,27 @@ const portraitPage = () => {
   return (
     <React.Fragment>
       <NavBar />
+
       <div className="text-black">
+       
+        <div className="flex-grow bg-white pt-2">
+          <p className="text-center font-playfair text-2xl md:text-3xl pb-3">Kendra Graduation</p>
+          <GalleryGrid
+            Img1="/images/kendra-graduation/legislature-2.jpg"
+            Img2="/images/kendra-graduation/legislature-3.jpg"
+            Img3="/images/kendra-graduation/green-2.png"
+            Img4="/images/kendra-graduation/legislature-4.jpg"
+            Img5="/images/kendra-graduation/green-3.jpg"
+          />
+          <GalleryGrid
+            Img1="/images/kendra-graduation/green-1.jpg"
+            Img2="/images/kendra-graduation/legislature-1.jpg"
+            Img3="/images/kendra-graduation/legislature-5.jpg"
+            Img4="/images/kendra-graduation/green-4.png"
+            Img5="/images/kendra-graduation/legislature-6.jpg"
+          />
+        </div>
+        
         <div className="flex-grow bg-white pt-2">
           <p className="text-center font-playfair text-2xl md:text-3xl pb-3">Sydney VCD Grad Chair</p>
           <GalleryGrid
